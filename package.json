@@ -1,0 +1,261 @@
+{
+  "name": "@dxkit-org/react-js-kit",
+  "version": "1.0.0",
+  "description": "Modern TypeScript utility library with tree-shaking support - Array, String, Number, Network, Sleep, and JWT utilities for JavaScript and TypeScript projects",
+  "keywords": [
+    "typescript",
+    "javascript",
+    "utilities",
+    "utility-library",
+    "tree-shaking",
+    "esm",
+    "array-utils",
+    "string-utils",
+    "number-utils",
+    "network-utils",
+    "sleep",
+    "jwt",
+    "json-web-token",
+    "modern-js",
+    "typescript-library",
+    "js-kit",
+    "functional",
+    "chunking",
+    "capitalize",
+    "clamp",
+    "port-checker",
+    "async-sleep",
+    "promise-utils",
+    "node",
+    "browser",
+    "universal",
+    "react",
+    "zustand",
+    "state-management",
+    "environment-detection",
+    "cross-platform"
+  ],
+  "type": "module",
+  "main": "./dist/universal/index.js",
+  "module": "./dist/universal/index.js",
+  "react-native": "./dist/universal/index.js",
+  "types": "./dist/universal/index.d.ts",
+  "typings": "./dist/universal/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "node": [
+        "./dist/node/index.d.ts"
+      ],
+      "browser": [
+        "./dist/browser/index.d.ts"
+      ],
+      "react": [
+        "./dist/react/index.d.ts"
+      ],
+      "react-native": [
+        "./dist/react-native/index.d.ts"
+      ],
+      "string": [
+        "./dist/universal/string/index.d.ts"
+      ],
+      "array": [
+        "./dist/universal/array/index.d.ts"
+      ],
+      "number": [
+        "./dist/universal/number/index.d.ts"
+      ],
+      "network": [
+        "./dist/node/network/index.d.ts"
+      ],
+      "sleep": [
+        "./dist/universal/sleep/index.d.ts"
+      ],
+      "jwt": [
+        "./dist/node/jwt/index.d.ts"
+      ],
+      "time": [
+        "./dist/universal/time/index.d.ts"
+      ],
+      "utils": [
+        "./dist/universal/utils/index.d.ts"
+      ],
+      "types": [
+        "./dist/universal/types/index.d.ts"
+      ],
+      "react/zustand": [
+        "./dist/react/zustand/index.d.ts"
+      ]
+    }
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/universal/index.d.ts",
+      "react-native": "./dist/universal/index.js",
+      "browser": "./dist/universal/index.js",
+      "module": "./dist/universal/index.js",
+      "import": "./dist/universal/index.js",
+      "default": "./dist/universal/index.js",
+      "require": "./dist/universal/index.cjs"
+    },
+    "./node": {
+      "types": "./dist/node/index.d.ts",
+      "node": "./dist/node/index.js",
+      "react-native": "./dist/node/index.js",
+      "module": "./dist/node/index.js",
+      "import": "./dist/node/index.js",
+      "default": "./dist/node/index.js",
+      "require": "./dist/node/index.cjs"
+    },
+    "./browser": {
+      "types": "./dist/browser/index.d.ts",
+      "browser": "./dist/browser/index.js",
+      "react-native": "./dist/browser/index.js",
+      "module": "./dist/browser/index.js",
+      "import": "./dist/browser/index.js",
+      "default": "./dist/browser/index.js",
+      "require": "./dist/browser/index.cjs"
+    },
+    "./react": {
+      "types": "./dist/react/index.d.ts",
+      "react-native": "./dist/react/index.js",
+      "module": "./dist/react/index.js",
+      "import": "./dist/react/index.js",
+      "default": "./dist/react/index.js",
+      "require": "./dist/react/index.cjs"
+    },
+    "./react-native": {
+      "types": "./dist/react-native/index.d.ts",
+      "react-native": "./dist/react-native/index.js",
+      "module": "./dist/react-native/index.js",
+      "import": "./dist/react-native/index.js",
+      "default": "./dist/react-native/index.js",
+      "require": "./dist/react-native/index.cjs"
+    },
+    "./string": {
+      "types": "./dist/universal/string/index.d.ts",
+      "react-native": "./dist/universal/string/index.js",
+      "module": "./dist/universal/string/index.js",
+      "import": "./dist/universal/string/index.js",
+      "default": "./dist/universal/string/index.js",
+      "require": "./dist/universal/string/index.cjs"
+    },
+    "./array": {
+      "types": "./dist/universal/array/index.d.ts",
+      "react-native": "./dist/universal/array/index.js",
+      "module": "./dist/universal/array/index.js",
+      "import": "./dist/universal/array/index.js",
+      "default": "./dist/universal/array/index.js",
+      "require": "./dist/universal/array/index.cjs"
+    },
+    "./number": {
+      "types": "./dist/universal/number/index.d.ts",
+      "react-native": "./dist/universal/number/index.js",
+      "module": "./dist/universal/number/index.js",
+      "import": "./dist/universal/number/index.js",
+      "default": "./dist/universal/number/index.js",
+      "require": "./dist/universal/number/index.cjs"
+    },
+    "./network": {
+      "types": "./dist/node/network/index.d.ts",
+      "node": "./dist/node/network/index.js",
+      "react-native": "./dist/node/network/index.js",
+      "module": "./dist/node/network/index.js",
+      "import": "./dist/node/network/index.js",
+      "default": "./dist/node/network/index.js",
+      "require": "./dist/node/network/index.cjs"
+    },
+    "./sleep": {
+      "types": "./dist/universal/sleep/index.d.ts",
+      "react-native": "./dist/universal/sleep/index.js",
+      "module": "./dist/universal/sleep/index.js",
+      "import": "./dist/universal/sleep/index.js",
+      "default": "./dist/universal/sleep/index.js",
+      "require": "./dist/universal/sleep/index.cjs"
+    },
+    "./jwt": {
+      "types": "./dist/node/jwt/index.d.ts",
+      "node": "./dist/node/jwt/index.js",
+      "react-native": "./dist/node/jwt/index.js",
+      "module": "./dist/node/jwt/index.js",
+      "import": "./dist/node/jwt/index.js",
+      "default": "./dist/node/jwt/index.js",
+      "require": "./dist/node/jwt/index.cjs"
+    },
+    "./time": {
+      "types": "./dist/universal/time/index.d.ts",
+      "react-native": "./dist/universal/time/index.js",
+      "module": "./dist/universal/time/index.js",
+      "import": "./dist/universal/time/index.js",
+      "default": "./dist/universal/time/index.js",
+      "require": "./dist/universal/time/index.cjs"
+    },
+    "./utils": {
+      "types": "./dist/universal/utils/index.d.ts",
+      "react-native": "./dist/universal/utils/index.js",
+      "module": "./dist/universal/utils/index.js",
+      "import": "./dist/universal/utils/index.js",
+      "default": "./dist/universal/utils/index.js",
+      "require": "./dist/universal/utils/index.cjs"
+    },
+    "./types": {
+      "types": "./dist/universal/types/index.d.ts",
+      "react-native": "./dist/universal/types/index.js",
+      "module": "./dist/universal/types/index.js",
+      "import": "./dist/universal/types/index.js",
+      "default": "./dist/universal/types/index.js",
+      "require": "./dist/universal/types/index.cjs"
+    },
+    "./react/zustand": {
+      "types": "./dist/react/zustand/index.d.ts",
+      "react-native": "./dist/react/zustand/index.js",
+      "module": "./dist/react/zustand/index.js",
+      "import": "./dist/react/zustand/index.js",
+      "default": "./dist/react/zustand/index.js",
+      "require": "./dist/react/zustand/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdarshHatkar/advanced-js-kit.git"
+  },
+  "homepage": "https://github.com/AdarshHatkar/advanced-js-kit#readme",
+  "bugs": {
+    "url": "https://github.com/AdarshHatkar/advanced-js-kit/issues"
+  },
+  "author": {
+    "name": "Adarsh Hatkar",
+    "url": "https://github.com/AdarshHatkar"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "npx rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "release:patch": "npm version patch",
+    "postversion": "git push && git push --tags && npm publish",
+    "link": "npm run build && npm link",
+    "unlink": "npm unlink -g advanced-js-kit"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "tsup": "^8.5.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "is-port-reachable": "^4.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "zustand": "^5.0.6"
+  }
+}
